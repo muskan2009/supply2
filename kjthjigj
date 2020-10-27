@@ -1,0 +1,54 @@
+boxleftSprite = createSprite(boxPosition,boxy,20,100);
+    boxleftSprite.shapecolor("red")
+	boxLeftBody = Bodies.rectangle(Boxposition+20,boxY,20,100)
+	World.add(world,boxLeftBody)
+	
+	boxBase = createSprite(boxPosition,boxy,20,100);
+    boxBase.shapecolor("red")
+	boxBaseBody = Bodies.rectangle(Boxposition+100,boxY+45-20,20,100)
+	World.add(world,boxBaseBody)
+	
+	boxRightSprite = createSprite(boxPosition,boxy,20,100);
+    boxRightSprite.shapecolor("red")
+	boxRightBody = Bodies.rectangle(Boxposition+20,boxY-45,20,100)
+	World.add(world,boxRightBody)
+
+
+ else if (keyCode === LEFT_ARROW) {
+	helicopterSprite.x = helicopterSprite.x-20
+	translation = (x: 20 , y:0)
+	Matter.Body.translate(packageBody,translation)
+  }
+  else if (keyCode === RIGHT_ARROW) {
+	helicopterSprite.x = helicopterSprite.x+20
+	translation = (x:20,y:0)
+	Matter.Body.translate(packageBody,translation)
+  }
+
+
+
+ else if (keyCode === LEFT_ARROW) {
+	helicopterSprite.x = helicopterSprite.x-20
+	translation = (x: 20 , y:0)
+	Matter.Body.translate(packageBody,translation)
+  }
+  else if (keyCode === RIGHT_ARROW) {
+	helicopterSprite.x = helicopterSprite.x+20
+	translation = (x:20,y:0)
+	Matter.Body.translate(packageBody,translation)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
